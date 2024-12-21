@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 20rem;
+    width: 15rem;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+#card1{
+    position: absolute;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ-qoHzMgsVJLQfOs7YzeDAnpFyjZ_4xx85K9xv_Ky8ei-rxHu5w0LqzNTd-GCgK3cf-w&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+}
+#card2{
+    position: absolute;
+    rotate: -15deg;
+    background-image: url(https://wallpapers.com/images/hd/sketch-pictures-850-x-1242-aqaj0bqwnhui2f5b.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    z-index: 8;
+    
+}
+#card3{
+    z-index: 6;
+    position: absolute;
+    rotate: -25deg;
+    background-image: url(https://static.tnn.in/thumb/112894879/112894879.jpg?height=746&width=420&resizemode=76&imgsize=891077);
+    background-position: center;
+    background-size: cover;
+}
+#card4{
+    position: absolute;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOHnflJPBbHWjm7Fnjg5ZFU0vc85sdRKnxAyQshfdB2qy4j-vCzEnPNpD32sn8ig6pgls&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    rotate: -35deg;
+}
+#card1:hover{
+z-index: 11;
+}
+#card2:hover{
+    z-index: 11;
+}
+#card3:hover{
+    z-index: 11;
+}
+#card4:hover{
+    z-index: 11;
+}
